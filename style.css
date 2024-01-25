@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@font-face {
+    font-family: 'Now Bold';
+    src: url("fonts/now.bold.otf") format("opentype");
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maintitle {
+    font-family: 'Now Bold', sans-serif;
+    color: #5E17EB;
+}
+
+.purplegradient {
+    background: rgb(1,74,173);
+    background: linear-gradient(90deg, rgba(1,74,173,1) 0%, rgba(202,108,230,1) 100%);
+}
