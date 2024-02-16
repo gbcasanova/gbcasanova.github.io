@@ -51,6 +51,12 @@ body {
     transition: 0.5s;
 }
 
+.projectsbutton a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
 .projectsbutton img{
     transition: 0.5s;
 }
@@ -61,6 +67,10 @@ body {
 
 .projectsbutton:hover{
     background: rgba(111, 93, 205,1);
+    color: white;
+}
+
+.projectsbutton:hover a{
     color: white;
 }
 
