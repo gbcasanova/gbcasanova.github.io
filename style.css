@@ -19,6 +19,11 @@ body {
     background: linear-gradient(90deg, rgba(1,74,173,1) 0%, rgba(202,108,230,1) 100%);
 }
 
+#links {
+    text-align: center;
+    margin: 10px;
+}
+
 
 .projetos {
     text-align: center;
