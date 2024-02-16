@@ -54,3 +54,7 @@ body {
     background: rgba(111, 93, 205,1);
     color: white;
 }
+
+.footer {
+    text-align: center;
+}
