@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" >
+
+        <title>Gabriel Casanova | Java</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="container">
+                
+                <div class="row"> <!-- Cabeçalho -->
+                    <div class="col">
+                        <a class="maintitle" href="index.html"><h1 class="display-1 text-uppercase">Gabriel Casanova</h1></a>
+                        <h2>Técnico de Informática</h2>
+
+                        <p>Sou um estudante de informática carioca de 19 anos de idade apaixonado pelo mundo de T.I. e estou buscando minhas primeiras experiências profissionais na área. Possuo facilidade para trabalhar em equipe e aprender novas tecnologias. Aprendo fazendo, com foco e dedicação!</p>
+
+                        <div id="links">
+                            <a class="btn btn-primary" href="https://www.linkedin.com/in/gbcasanova/" role="button" target="_blank">LinkedIn</a>
+                            <a class="btn btn-dark" href="https://github.com/gbcasanova" role="button" target="_blank">GitHub</a>
+                            <a class="btn btn-secondary" href="https://drive.google.com/file/d/1tFnYnFlUKPS-oxg74fgrgka2kMZ5NRsF/view?usp=sharing" role="button" target="_blank">Currículo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- Descrição -->
+                    <div class="col">
+                        <h3 class="text-end p-1 text-uppercase text-white purplegradient">JAVA</h3>
+                        <p><b>Pequenos projetos e demonstrações criadas em Java durante minha formação acadêmica e no meu tempo livre.</b></p>
+                    </div>
+                </div>
+
+                <!-- Projetos -->
+                <div class="row">  <!-- Calculadora e Login -->
+                    <div class="col">
+                        <h3 class="text-end p-1 text-uppercase text-white purplegradient">Calculadora</h3>
+                        <div class="center">
+                            <p class="center">Calculadora Java simples, inspirada na calculadora do Iphone.</p>
+                            <div>
+                                <video src="https://github.com/gbcasanova/recursos/raw/main/vid/calc.mp4" muted autoplay loop controls></video>
+                            </div>
+                            <a class="btn btn-dark" href="https://github.com/gbcasanova/demo_calcjava" role="button" target="_blank">Acessar Repositório</a>
+                        </div>  
+                    </div>
+                
+                    <div class="col">
+                        <h3 class="text-end p-1 text-uppercase text-white purplegradient">Login MySQL</h3>
+                        <div class="center">
+                            <p class="center">Login feito com JavaX/Swing que interage com um banco de dados MySQL
+                                .</p>
+                            <div>
+                                <video src="https://github.com/gbcasanova/recursos/raw/main/vid/loginmysql.mp4" muted autoplay loop controls></video>
+                            </div>
+                            <a class="btn btn-dark" href="https://github.com/gbcasanova/demo_loginmyqsl" role="button" target="_blank">Acessar Repositório</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col">
+                        <h3 class="text-end p-1 text-uppercase text-white purplegradient">IMC e Conversão Monetária</h3>
+                        <div class="center">
+                            <p class="center">Calculadora de Índice de Massa Corporal (IMC) e conversão BRL/USD feita em Swing/JavaX.</p>
+                            <div>
+                                <video src="https://github.com/gbcasanova/recursos/raw/main/vid/calcimcdolar.mp4" muted autoplay loop controls></video>
+                            </div>
+                            <a class="btn btn-dark" href="https://github.com/gbcasanova/demo_calcimcdolar" role="button" target="_blank">Acessar Repositório</a>
+                        </div>  
+                    </div>
+
+                    <div class="col">
+                    </div>
+                </div>
+
+                <div class="row"> <!-- Rodapé -->
+                    <div class="col center">
+                        <a class="btn btn-primary" style="margin: 10px;" href="index.html" role="button">Voltar</a>
+                        <p id="copyright"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script>
+        function copyrightYear() {
+            var d = new Date();
+            var y = d.getFullYear();
+            document.getElementById("copyright").innerHTML = '<b>' + y + ' Gabriel Casanova</b>';
+        }
+
+        copyrightYear();
+    </script>
+</html>
