@@ -18,3 +18,34 @@ body {
     background: rgb(1,74,173);
     background: linear-gradient(90deg, rgba(1,74,173,1) 0%, rgba(202,108,230,1) 100%);
 }
+
+
+.projetos {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.projetos img {
+    max-height: 130px;
+    width: auto;
+    margin: 5px;
+}
+
+.projectsbutton {
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.projectsbutton img{
+    transition: 0.5s;
+}
+
+.projectsbutton:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.projectsbutton:hover{
+    background: rgba(111, 93, 205,1);
+    color: white;
+}
